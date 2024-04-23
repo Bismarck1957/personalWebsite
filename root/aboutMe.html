@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Title is for the page name -->
+	<title>Alexander "Sasha" Breniser - About Me/Contact</title>
+	<!-- Image for the tab -->
+	<img rel="icon" link="LogoCropped.png">
+	<!-- Reference the CSS file -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+        body {
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+	<img id="center" src="LogoCropped.png" alt="Logo">
+	<h1 id="actual">Alexander "Sasha" Breniser</h1>
+	<h3 id="actual">Carpenter, Technician, and Machinist</h3>
+
+<!-- Top navigation bar -->
+<nav>
+	<!-- Top Nav has CSS id -->
+	<div id="topnav">
+		<!-- Main home page button, id sets formatting for active page -->
+		<a href="index.html" style="font-family: Lucida Console, monospace;">Home</a>
+		<!-- Gallery page button -->
+		<a href="gallery.html" style="font-family: Lucida Console, monospace;">Gallery</a>
+		<!-- Resume page button -->
+		<a href="resume.html" style="font-family: Lucida Console, monospace;">Resume</a>
+		<!-- About Me/Contact page button -->
+		<a id="active" href="aboutMe.html" style="font-family: Lucida Console, monospace;">About Me/Contact</a>
+	</div>
+</nav>
+
+	<!-- Sidebar -->
+	<!--
+	<div id="sidebar">
+		<a href="index.html" id="sidebarButton">Home</a>
+		<a id="sidebarButton" href="gallery.html">Gallery</a>
+		<a id="sidebarButton" href="resume.html">Resume</a>
+		<a id="sidebarButton" href="aboutMe.html">About Me/Contact</a>
+	</div>
+	-->
+
+	<!-- About Me column with pic -->
+	<div class="row">
+		<div class="column">
+			<h2 id="actual">About Me</h2>
+			<p>My name is Alexander Breniser, but most people know me as Sasha. I am a junior studying at Millersville University. I've been interested in mechanical things since I was young, so I've been messing around with technology and tinkering often. In my free time, I like to read and play video games, and sometimes play Dungeons and Dragons or go for a hike on the weekends with my friends. One of my core beliefs is that if you can do it yourself, there's no reason not to. A fitting example is this website, built by yours truely!</p>
+			<h2 id="actual">Contact</h2>	
+			<p>For formal business inquiries, you can reach me at <a href="mailto:anbrenis21@gmail.com" style="text-decoration: underline;">anbrenis21@gmail.com</a> via email. You can also reach me on <a href="https://www.linkedin.com/in/alexander-breniser-99175b17a/" style="text-decoration: underline;">LinkedIn</a>.</p>
+		</div>
+
+		<div class="column">
+			<h2 id="actual">Photo of Myself</h2>
+			<img src="professionalShot.jpg" style="width: 100%;">
+			<p style="text-align: center;">Myself and my mom taking a selfie before high school graduation pictures, 2021 (Love you, Mama!)</p>
+		</div>
+	</div>
+
+	<div>
+		<!-- Copyright info -->
+		<p id="copyright" style="text-align:center; color:#6DAEDB;">© 2024, Alexander "Sasha" Breniser. All rights reserved.</p>
+	</div>
+</body>
+</html>
